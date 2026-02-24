@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # Marlin 3D Printer Firmware
 # Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -36,16 +37,34 @@ applet/
 .DS_Store
 
 # Compiled C++ Object files
+=======
+# Prerequisites
+*.d
+
+# Compiled Object files
+>>>>>>> 5e8432ba5294ce665326524b7007776282e8c072
 *.slo
 *.lo
 *.o
 *.obj
+<<<<<<< HEAD
 *.ino.cpp
+=======
+>>>>>>> 5e8432ba5294ce665326524b7007776282e8c072
 
 # Precompiled Headers
 *.gch
 *.pch
 
+<<<<<<< HEAD
+=======
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+>>>>>>> 5e8432ba5294ce665326524b7007776282e8c072
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -66,6 +85,7 @@ applet/
 *.out
 *.app
 
+<<<<<<< HEAD
 # Compiled C Object files
 *.o
 *.ko
@@ -172,3 +192,7 @@ tags
 .aider*
 !.aiderignore
 .env
+=======
+# debug information files
+*.dwo
+>>>>>>> 5e8432ba5294ce665326524b7007776282e8c072
